@@ -17,7 +17,7 @@ cat << EOF > /usr/local/etc/trojan-go/config.json
   "remote_addr": "wiki.com",
   "remote_port": 80,
   "log_level": 5,
-  "password": ["jdffdjghi64538RN"],
+  "password": ["$UUID"],
   "tcp": {
     "no_delay": true,
     "keep_alive": true,
